@@ -15,10 +15,10 @@ public class ForEach {
         List<Usuario> usuarios = Arrays.asList(new Usuario("Thiago", 29),
                 new Usuario("José", 20),
                 new Usuario("Maria", 31));
-        imprimirNomeUsuarios(usuarios);
+        inativarUsuariosMairesQue30Anos(usuarios);
     }
 
-    private static void imprimirNomeUsuarios(List<Usuario> usuarios) {
+    private static void inativarUsuariosMairesQue30Anos(List<Usuario> usuarios) {
         usuarios.forEach(new UsuarioConsumer());
     }
 }
