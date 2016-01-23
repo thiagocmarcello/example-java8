@@ -20,8 +20,10 @@ public class ExampleForEach {
     }
 
     private static List<Usuario> getUsuarios() {
-        return Arrays.asList(new Usuario("Thiago", 29),
+        return Arrays.asList(
+                new Usuario("Thiago", 29),
                 new Usuario("José", 20),
-                new Usuario("Maria", 31));
+                new Usuario("Maria", 31)
+        );
     }
 }
